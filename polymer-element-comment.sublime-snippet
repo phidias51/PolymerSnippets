@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * This component...
+ * @group $1
+ * @element $2
+ * @demo $3
+ */
+<dom-module id="$2">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+		</style>
+		$4
+	</template>
+	<script>
+		Polymer({
+			is: '$2'
+		});
+	</script>
+</dom-module>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pec</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>polymer element</description>
+</snippet>
