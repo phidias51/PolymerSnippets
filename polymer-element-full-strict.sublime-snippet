@@ -1,22 +1,27 @@
 <snippet>
 	<content><![CDATA[
 <link rel="import" href="$1/polymer/polymer.html">
-
-<dom-module id="$2">
+/**
+ * This component...
+ * @group $2
+ * @element $3
+ * @demo $3
+ */
+<dom-module id="$3">
 	<template>
 		<style>
 			:host {
 				display: block;
 			}
 		</style>
-		$3
+		$4
 	</template>
 	<script>
 		(function() {
 			'use strict';
 	      
 			Polymer({
-				is: '$2'
+				is: '$3'
 			});
 		})();
 	</script>
